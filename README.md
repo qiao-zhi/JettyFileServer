@@ -1,1 +1,1 @@
-﻿基于Jetty的文件服务器
+﻿基于Jetty的文件服务器(Jetty内嵌的用法:http://wiki.eclipse.org/Jetty/Tutorial/Embedding_Jetty)
