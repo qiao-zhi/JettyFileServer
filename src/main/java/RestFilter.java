@@ -55,9 +55,8 @@ public class RestFilter implements Filter {
 		HttpServletRequest httpRequest = (HttpServletRequest) request;
 		HttpServletResponse httpResponse = (HttpServletResponse) response;
 
-		Enumeration parameterNames = httpRequest.getParameterNames();
 		System.out.println(httpRequest.getRequestURL());
-		System.out.println(parameterNames);
+		System.out.println(httpRequest.getMethod());
 		
 		if (httpRequest.getMethod().equals(HTTP_METHOD_MOVE)) {
 			doMove(httpRequest, httpResponse);
